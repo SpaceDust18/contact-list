@@ -21,6 +21,6 @@ function App() {
       <ContactList contactList={contactList} setContactList={setContactList} />
     </>
   )
-}iuyhoiuyo
+}
 
 export default App
