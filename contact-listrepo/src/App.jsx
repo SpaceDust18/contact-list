@@ -9,9 +9,7 @@ function App() {
   return (
     <div className="app-container">
       {selectedContactId ? (
-        <SelectedContact
-          selectedContactId={selectedContactId}
-          setSelectedContactId={setSelectedContactId}
+        <SelectedContact selectedContactId={selectedContactId} setSelectedContactId={setSelectedContactId}
         />
       ) : (
         <ContactList setSelectedContactId={setSelectedContactId} />
